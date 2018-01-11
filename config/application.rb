@@ -27,5 +27,8 @@ module RateitappDemo
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Playlist API thingy
+    config.playlist_domain = 'your_playlist.example.com'
   end
 end
