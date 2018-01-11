@@ -1,7 +1,7 @@
 # This migration comes from rateitapp (originally 20160614154743)
 # frozen_string_literal: true
 
-class CreateRateitappRatings < ActiveRecord::Migration
+class CreateRateitappRatings < ActiveRecord::Migration[4.2]
   def change
     create_table :rateitapp_ratings do |t|
       t.integer :value
