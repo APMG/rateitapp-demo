@@ -30,5 +30,7 @@ module RateitappDemo
 
     # Playlist API thingy
     config.playlist_domain = 'your_playlist.example.com'
+
+    config.oauth_domain = 'accounts.example.com'
   end
 end
